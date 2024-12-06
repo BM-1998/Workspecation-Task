@@ -62,3 +62,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Step To Install The Project 
+
+1. Clone the git repository by using Command git clone https://github.com/BM-1998/Workspecation-Task.git
+2. Create A database as 'tutor-team-api' in xampp locally.
+3. Add the database details in your .env files will be provided You in Mail or just copy paste the .env file.
+4. Run command as composer install
+5. Run php artisan migrate, to migrate all tables to database.
+6. RUN php artisan db:seed, for adding fake data in the database.
+7. RUN php artisan key:generate for generating application key.
+7. Run php artisan serve. (You Are Good To Go!!).
+
+
